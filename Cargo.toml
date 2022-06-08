@@ -18,7 +18,7 @@ netmap = ["pnet_datalink/netmap_sys", "pnet_datalink/netmap"]
 pcap = ["pnet_datalink/pcap"]
 appveyor = []
 travis = []
-serde = ["pnet_base/serde", "pnet_datalink?/serde"]
+serde = ["pnet_base/serde", "pnet_datalink/serde"]
 std = ["pnet_base/std", "pnet_sys", "pnet_datalink", "pnet_transport", "ipnetwork"]
 default = ["pnet_base/default", "pnet_datalink/default", "pnet_transport/default", "pnet_packet/default"]
 
